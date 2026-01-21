@@ -26,7 +26,7 @@ function WindowHeader({ setX, setY, width, close, minimize }: Props) {
       "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
     e.dataTransfer.setDragImage(img, 0, 0);
   };
-  const isMac = true// navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+  const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
 
   return (<header className="relative group mx-auto w-40 h-6">
     <div className="w-32 h-6 bg-gray-200 shadow-sm hover:cursor-grab mx-auto rounded-b-2xl -translate-y-5 group-hover:translate-y-0 ease-in-out duration-200">
