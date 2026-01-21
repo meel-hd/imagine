@@ -1,16 +1,14 @@
-# Welcome to React Router!
+# Imagine
+An experimental UI project that reimagines desktop window controls.
 
-A modern, production-ready template for building full-stack React applications using React Router.
+I always found standard OS window controls clunky and out of sync with modern UIs. They are bulky, inconsistent, and visually intrusive. They also consume valuable screen space that could be used for content. So, I tried something different, more elegant.
 
-## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+![Imagine Screenshot](./public/screenshot.png)
+<center>
+    <small>Hidden Controls, Revealed on mouse proximity. With draggable and resizable windows.</small>
+</center>
+
 
 ## Getting Started
 
